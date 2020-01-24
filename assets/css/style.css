@@ -1,0 +1,154 @@
+body {
+  background-image: url("../images/backgrounds/bedge_grunge.png");
+  min-height: 100vh;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4aaaa5;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/* NAVBAR */
+
+.navbar,
+nav .container {
+  padding: 0;
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  color: #fff !important;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  background-color: #888;
+}
+
+.nav-link:hover {
+  background-color: #4aaaa5;
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.active {
+  background-color: #4aaaa5;
+}
+
+.active>.nav-link {
+  color: #fff !important;
+}
+
+.stylized-navbar {
+  background-color: #666;
+  border-bottom: 8px solid #4aaaa5;
+}
+
+.stylized-navbar .navbar-brand {
+  padding: 8px 20px;
+}
+
+/* MAIN CONTENT */
+
+.main-section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 40px 0 108px 0;
+  padding: 30px;
+}
+
+header h1 {
+  border-bottom: 3px solid #ddd;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 49px;
+  padding-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  color: #ccc;
+  font-size: 12px;
+  height: 50px;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* PORTFOLIO.HTML */
+
+.portfolio-card {
+  margin: 15px 0;
+  padding: 0;
+  position: relative;
+}
+
+.portfolio-card h3 {
+  background-color: #4aaaa5;
+  color: #fff;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 15px;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+/* CONTACT.HTML */
+
+form .btn {
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
+form .btn:hover {
+  background-color: #888;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* This is when Bootstrap enables the button in the nav bar. */
+@media (max-width: 991px) {
+
+  .nav-link {
+    padding-left: 20px !important;
+  }
+}
+
+/* MEDIA QUERY FOR EXTRA SMALL SCREENS */
+
+@media (max-width: 575px) {
+
+  /*
+    Make the profile pic take up 100% of the
+    width on extra small screens.
+  */
+  .profile-pic {
+    clear: both;
+    width: 100%;
+  }
+
+  /* Hide the home icon */
+  #home-icon {
+    display: none;
+  }
+
+  /* Add some margin to the aria navbar toggle button */
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+}

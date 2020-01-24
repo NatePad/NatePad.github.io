@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+  <!-- Font Aweseome script -->
+  <script src="assets/js/fontawesome.all.min.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="assets/js/scripts.js"></script>
+
+  <title>Portfolio | Nathan Sartain</title>
+</head>
+<body onload="randomBackgroundImage();">
+
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark stylized-navbar">
+
+    <!-- container for navbar left and right margins -->
+    <div class="container">
+
+      <!-- navbar logo -->
+      <a class="navbar-brand logo" href="index.html"><span id="home-icon"><i class="fas fa-home"></i> </span>Nathan Sartain</a>
+
+      <!-- Bootstrap aria code for mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Right side or aria links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active mid-link">
+            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+
+  <!-- This container is for the main left and right margins. -->
+  <div class="container">
+
+    <!--
+      This row is an outer wrapper that
+      is used to contain the following section.
+    -->
+    <div class="row">
+
+      <!--
+        This section is used to create a container for the main content.
+        From here, the .main-section class can be used to style the central content.
+      -->
+      <article class="col-12 main-section">
+
+        <!-- This sub-row is for the main content's header. -->
+        <div class="row">
+          <header class="col-12">
+            <h1>Portfolio</h1>
+          </header>
+        </div>
+    
+        <!-- This sub-row is used for the main content. -->
+        <!-- <div class="row mt-3"> -->
+
+        <!-- This is the main content. -->
+        <div class="card-deck">
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/screenshots/Password-Generator-Screenshot.png" alt="Password Generator Screenshot">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">Generates a random password based on parameters chosen by the user.</p>
+              <a href="https://github.com/NatePad/Password-Generator" target="_blank" class="card-link">GitHub Repo</a>
+              <a href="https://natepad.github.io/Password-Generator/" target="_blank" class="card-link">Live App</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/screenshots/Day-Planner-Screenshot.png" alt="Day Planner Screenshot">
+            <div class="card-body">
+              <h5 class="card-title">Day Planner</h5>
+              <p class="card-text">Uses HTML5 local storage to save tasks and dynamically changes color depending on the time of day.</p>
+              <a href="https://github.com/NatePad/Day-Planner" target="_blank" class="card-link">GitHub Repo</a>
+              <a href="https://natepad.github.io/Day-Planner/" target="_blank" class="card-link">Live App</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/screenshots/Video-Game-Search-Screenshot.png" alt="Video Game Search Screenshot">
+            <div class="card-body">
+              <h5 class="card-title">Find Video Games</h5>
+              <p class="card-text">Group project that uses 2 separate APIs to find videogames and related news.</p>
+              <a href="https://github.com/justindurocher/Video-Game-Search-App" target="_blank" class="card-link">GitHub Repo</a>
+              <a href="https://justindurocher.github.io/Video-Game-Search-App/" target="_blank" class="card-link">Live App</a>
+            </div>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+  <footer>
+    By Nathan Sartain
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+</body>
+</html>

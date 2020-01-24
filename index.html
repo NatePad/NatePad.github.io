@@ -1,21 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Nathan Sartain's Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+  <!-- Font Aweseome script -->
+  <script src="assets/js/fontawesome.all.min.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="assets/js/scripts.js"></script>
+
+  <title>About | Nathan Sartain</title>
 </head>
-<body>
-<div class="container">
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">Welcome to my GitHub profile page!</p>
+<body onload="randomBackgroundImage();">
+
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark stylized-navbar">
+
+    <!-- container for navbar left and right margins -->
+    <div class="container">
+
+      <!-- navbar logo -->
+      <a class="navbar-brand" href="index.html"><span id="home-icon"><i class="fas fa-home"></i> </span>Nathan Sartain</a>
+
+      <!-- Bootstrap aria code for mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Right side or aria links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+
+  <!-- This container is for the main left and right margins. -->
+  <div class="container">
+
+    <!--
+      This row is an outer wrapper that
+      is used to contain the following section.
+    -->
+    <div class="row">
+
+      <!--
+        This section is used to create a container for the main content.
+        From here, the .main-section class can be used to style the central content.
+      -->
+      <article class="col-12 main-section">
+
+        <!-- This sub-row is for the main content's header. -->
+        <div class="row">
+          <header class="col-12">
+            <h1>About Me</h1>
+          </header>
+        </div>
+    
+        <!-- This sub-row is used for the main content. -->
+        <div class="row mt-3">
+          <div class="col-12">
+
+            <!-- This is the main content. -->
+            <img src="assets/images/profile-pic.jpg" alt="A picture of Nathan Sartain." class="mr-3 mb-2 profile-pic float-left" />
+
+            <p>
+              Hi, I'm Nate. I’m a full stack web developer with a specialization in the MERN stack (MongoDB, Express, React, and Node.js).
+              As a seasoned IT professional transitioning into development, I'm currently enrolled in UConn’s Coding Boot Camp to augment
+              my prior coding skills, which were obtained through a combination of self-directed learning and coursework from my prior place 
+              of employment - <a href="https://www.fmarion.edu/" target="_blank">Francis Marion University</a>.
+            </p>
+
+            <p>
+              I was fortunate to spend 8 years at FMU in a variety of roles from desktop support, to Director of Desktop Support, to Systems 
+              Administrator. I worked as a member of a team transitioning the university’s ERP solution from on-prem to the cloud based 
+              Ellucian Colleague, and was also one of a two-person team which managed hundreds of servers and virtual computer images
+              across 2 domains in a VMWare environment.
+            </p>
+
+            <p>
+              I'm originally from South Carolina, and my wife is from Connecticut; we recently relocated to Connecticut and shortly afterwards
+              I realized that while I enjoyed my time in systems administration, my passion lies in programming and web development.
+            </p>
+
+            <br />
+
+            <h4>On a Personal Note:</h4>
+
+            <p>
+              My wife and I met in <a href="https://worldofwarcraft.com/" target="_blank">World of Warcraft</a>!
+              Quality family time at our house involves video games, board games, and
+              <a href="https://dnd.wizards.com/" target="_blank">Dungeons <i class="fab fa-d-and-d"></i> Dragons</a>. If the weather is nice,
+              you might also find me on a hiking trail that leads up a mountain or through a forest somewhere in the wilderness.
+            </p>
+
+            <p>
+              Information on UConn's bootcamp can be found at <a href="https://bootcamp.uconn.edu/" target="_blank">bootcamp.uconn.edu</a>,
+              and the curriculum pdf can be viewed by
+              <a href="https://media.trilogyed.com/UConn/coding/uconn_curriculum_overview_fullstackflex_pt.pdf" target="_blank">clicking here</a>.
+              This six month bootcamp began on November 12th, 2019 and will finish on May 9th, 2020. I'm learning so much and continually
+              find myself excited about the next class!
+            </p>
+
+            <p>
+              For more information, please visit my website at <a href="http://natepad.com/" target="_blank">NatePad.com</a>, which I built by
+              using templates that I found online along with <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>.
+            </p>
+
+            <h4>Get in Touch</h4>
+            <ul>
+              <li>Email: <a href="mailto:nathanmsartain@gmail.com">nathanmsartain@gmail.com</a></li>
+              <li>View my resume by <a href="assets/Nathan Sartain - Resume.pdf" target="_blank">clicking here</a>.</li>
+            </ul>
+
+            <p class="text-center">
+              Find me on:<br />
+              <a href="https://github.com/NatePad" target="_blank"><i class="fab fa-github"></i> GitHub</a> | 
+              <a href="https://www.linkedin.com/in/nsartain/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </p>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
   </div>
-  <ul>
-    <li>You can find my GitHub profile at <a href="https://github.com/NatePad" target="_blank">https://github.com/NatePad</a>.</li>
-    <li>You can find my profile website at <a href="http://natepad.com/" target="_blank">natepad.com</a>.</li>
-  </ul>
-</div>
+
+  <footer>
+    By Nathan Sartain
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
 </body>
 </html>
